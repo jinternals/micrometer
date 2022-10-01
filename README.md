@@ -1,4 +1,4 @@
-# spring-micrometer-demo
+# spring-micrometer-demo-app
 
 #### build images: 
    
