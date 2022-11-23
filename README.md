@@ -21,7 +21,7 @@
     
     docker-compose rm -f
 ####
-hit endpoint -  http://localhost:8080/increase/count
+Browse url - http://localhost:8080/increase/count
 
 ![Image](./docs/img_1.png)
 
