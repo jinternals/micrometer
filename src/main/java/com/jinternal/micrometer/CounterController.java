@@ -11,10 +11,10 @@ public class CounterController {
     @Autowired
     MeterRegistry meterRegistry;
 
-    @GetMapping("/message")
+    @GetMapping("/count")
     String getMessage(){
         Counter counter = meterRegistry.counter("api-calls");
         counter.increment();
-        return "Hello";
+        return "count " + counter.count();
     }
 }
