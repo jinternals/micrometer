@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM eclipse-temurin:17
 MAINTAINER Mradul Pandey <pandeymradul@gmail.com>
 
 ADD ./@project.build.finalName@.jar /app/
