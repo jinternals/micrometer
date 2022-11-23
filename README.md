@@ -20,7 +20,11 @@
 #### remove containers:
     
     docker-compose rm -f
-    
+####
+hit endpoint -  http://localhost:8080/increase/count
+
+![Image](./docs/img_1.png)
+
 #### URLs:
     
     http://localhost:8080/actuator/prometheus
